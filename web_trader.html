@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="zxx" dir="ltr">
+
+<head>
+    <!-- Standard Meta -->
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="" />
+    <!-- Site Properties -->
+    <title>Web Trader</title>
+    <!-- critical preload -->
+    <link rel="preload" href="js/vendors/uikit.min.js" as="script">
+    <link rel="preload" href="css/vendors/uikit.min.css" as="style">
+    <link rel="preload" href="css/style.css" as="style">
+    <!-- icon preload -->
+    <link rel="preload" href="fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+    <!-- font preload -->
+    <link rel="preload" href="fonts/archivo-v9-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/archivo-v9-latin-300.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/archivo-v9-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+    <!-- Favicon and apple icon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon.png">
+    <!-- css -->
+    <link rel="stylesheet" href="css/vendors/uikit.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+     <link rel="stylesheet" href="css/base.min.css">
+     <link rel="stylesheet" href="css/customized.css">
+     <link rel="stylesheet" href="css/defult-theme.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<style>
+    .register-section .content-column .inner-column .lower-box .text {
+    position: relative;
+    color: #848484;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.7em;
+    margin-bottom: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.services-block-three .inner-box .icon-box {
+    position: relative;
+    width: 177px;
+    height: 193px;
+    margin: 0 auto;
+    color: #E75480;;
+    line-height: 190px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 60px;
+    background: url(img/services-bg.png) center center no-repeat;
+}
+
+
+.sec-title h2 {
+    font-size: 30px;
+    color: #262626;
+    font-weight: 500;
+    line-height: 1.1em;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+</style>
+  <style>
+        .fas
+        {
+            color:white;
+        }
+    </style>
+<style>
+ 
+
+/*.services-block-three .inner-box .number {*/
+/*    position: absolute;*/
+/*    right: -30px;*/
+/*    bottom: 0px;*/
+/*    width: 30px;*/
+/*    height: 30px;*/
+/*    color: #ffffff;*/
+/*    line-height: 30px;*/
+/*    text-align: center;*/
+/*    font-weight: 500;*/
+/*    z-index: 11;*/
+/*    border-radius: 50%;*/
+/*    text-transform: uppercase;*/
+/*    background-color: #f57d1f;*/
+/*    font-family: 'Roboto', sans-serif;*/
+/*}*/
+</style>
+<style>
+    .buy-section {
+    position: relative;
+    padding: 85px 0px 65px;
+    background-color: #0c0c0c;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+services-block-three .inner-box .icon-box {
+    position: relative;
+    width: 177px;
+    height: 193px;
+    margin: 0 auto;
+    color: #f57d1f;
+    line-height: 190px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 60px;
+    background: url(../images/resource/services-bg.png) center center no-repeat;
+}
+</style>
+<style>
+    article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+</style>
+     <style>
+        
+        a {
+    color: black;
+    text-decoration: none;
+    background-color: transparent;
+}
+    </style>
+    <style>
+   .auto-container {
+    position: static;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+    </style>
+    <style>
+        .in-list-check
+        {
+            color:#21365D;
+        }
+    </style>
+    <style>
+        .dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu a::after {
+  transform: rotate(-90deg);
+  position: absolute;
+  right: 6px;
+  top: .8em;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-left: .1rem;
+  margin-right: .1rem;
+}
+    </style>
+</head>
+
+<body>
+    <!-- preloader begin -->
+    <div class="in-loader">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <!-- preloader end -->
+    <header>
+    <!-- header content begin -->
+    <div class="uk-section uk-padding-remove-vertical">
+        <nav class="uk-navbar-container" data-uk-sticky="show-on-up: true; animation: uk-animation-slide-top;" style="background-color: rgb(37, 35, 35);">
+            <div class="uk-container" data-uk-navbar>
+                <div class="uk-navbar-left">
+                    <div class="uk-navbar-item">
+                        <!-- logo begin -->
+                          <a class="uk-logo" href="/">
+                                <!-- <img src="img/edited-logo.png" data-src="img/edited-logo.png" style="width:200px; height:60px;" alt="CVCGlobals logo"  data-uk-img> -->
+                        </a>
+                        <!-- logo end -->
+                        <!-- navigation begin -->
+                        <ul class="uk-navbar-nav uk-visible@m" style="margin-top:10px;">
+                            <li><a href="/" style="color:white">Home</a></li>
+                           <li><a href="#" style="color:white">Start Trading<i class="fas fa-chevron-down"></i></a>
+                                    <div class="uk-navbar-dropdown">
+                                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                                             <li><a href="account_type.html">Account Types </a></li>
+                                            <li><a href="trading-conditions.html">Trading Conditions </a></li>
+                                            <li><a href="leaverage_rules.html">Leverage Rules</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                           
+                            <!--<li><a href="markets.html" style="color:white">Markets</a></li>-->
+                            <li><a href="#" style="color:white">About Us<i class="fas fa-chevron-down"></i></a>
+                                <div class="uk-navbar-dropdown">
+                                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                                        <li><a href="who.html">Who is CVC GLOBALS</a></li>
+                                        <li><a href="faq.html">FAQ's</a></li>
+                                        <li><a href="benefits.html">CVC GLOBALS advantages</a></li>
+                                        <li><a href="fund_safety.html">Fund Safety</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <!--<li><a href="education.html" style="color:white">Education</a></li>-->
+                             <li><a href="#" style="color:white">Instruments<i class="fas fa-chevron-down"></i></a>
+                                <div class="uk-navbar-dropdown">
+                                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                                        <li><a href="forex.html">Forex</a></li>
+                                        <li><a href="">Crypto</a></li>
+                                        <li><a href="metals.html">Metals</a></li>
+                                        <li><a href="commodity.html">Commodity</a></li>
+                                         <li><a href="indices.html">indices</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="web_trader.html" style="color:white">Platform</a></li>
+                             <li><a href="contact.html" style="color:white">Contact Us</a></li>
+                        </ul>
+                       
+                        <!-- navigation end -->
+                    </div>
+                </div>
+                <div class="uk-navbar-right">
+                   <div class="uk-navbar-item uk-visible@m in-optional-nav">
+                        <a href="" style="color:white" target="_blank" id="login" class="uk-button uk-button-text">Log in<i class="fas fa-arrow-circle-right uk-margin-small-left"></i></a> &nbsp;
+                        <a href="" target="_blank" style="background-color:#E75480;;color:white" class="uk-button uk-button-primary uk-border-rounded">Sign up<i class="fas fa-arrow-circle-right uk-margin-small-left"></i></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- header content end -->
+</header>
+  
+<section class="page-title" style="background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, #000000c9 100%),url(img/trading_condition.png) fixed center center;background-size: cover;background-position: center;">
+    <div class="auto-container">
+        <h1 style="color:black;">Platform</h1>
+        <div class="title" style="color:black;">We are the best FOREX trading platform offering exceptional <br> financial services to our clients with great efficiency and talent.</div>
+    </div>
+    <!--Page Info-->
+    <!--End Page Info-->
+</section>
+ <div class="uk-section uk-padding-remove-vertical in-equity-breadcrumb"  style="background-color: #E75480;;color:white">
+        <div class="uk-container">
+            <div class="uk-grid">
+                <div class="uk-width-1-1">
+                    <ul class="uk-breadcrumb" style="color:white"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="auto-container">
+    <div class="row mt-5">
+        <div class="col-md-6">
+            <div class="sec-title">
+                <h2 class="text-dark">
+                    Introducing the CVC GLOBALS
+                </h2>
+                <div class="separator"></div>
+            </div>
+
+            <p>
+                The CVC GLOBALS delivers everything traders have grown to love about their TraderHub platform but with a few extra enhancements. More power. More precision.
+
+            </p>
+            <p>More options.With new added features and technical upgrades, the TraderHub platform will provide you with all of the tools you will need to take on the markets
+            </p>
+            <h3 class="text-dark mb-3 mt-5">
+                CVC GLOBALS Unique Features
+            </h3>
+            <p>
+                1. Multi-asset platform for over 700 instruments
+            </p>
+            <p>
+                2. Over 80 Technical Indicators and over 40 Analytical Objects
+            </p>
+            <p>
+                3. Web trading for Windows, Mac, Linux operating systems
+            </p>
+            <p>
+                4. Hedging Option Available
+            </p>
+            <p>
+                5. Highlighted Entry/Exit Points
+            </p>
+            <div class="mb-8">
+               
+                        <a href="" target="_blank"  style="background-color: #E75480;; color:white; border-radius:15px; border-color: #EE5C25" class=" btn btn-primary">Windows Download</a>
+              
+                    <a  href="" target="_blank"  style="background-color:#E75480;;color:white; border-radius:15px; border-color: #EE5C25" class=" btn btn-primary">Android Download</a>
+            
+            </div>
+        </div>
+        <div class="col-md-6">
+            <img src="img/mt5.png">
+        </div>
+    </div>
+    <hr class="my-5">
+    <div class="row align-items-end">
+        <div class="col-md-6">
+            <img src="img/mobile_trading.jpg">
+        </div>
+        <div class="col-md-6">
+            <div class="sec-title">
+                <h2 class="text-dark">
+                    Mobile Trading
+                </h2>
+                <div class="separator"></div>
+            </div>
+            <p>
+                1. Full-fledged financial market trading can be enjoyed without even a desktop computer.
+            </p>
+            <p>
+                2. The only thing you need to do is to install the mobile version of Trader Hub for Android or iOS on your smartphone or tablet.
+            </p>
+
+            <p>
+                3. Mobile applications support the full set of trading function, provide extensive analytical capabilities through the use of 
+                technical indicators and graphical objects, as well as allow you to monitor account status, view your trading history and more.
+
+            </p>
+            <div class="mb-5">
+                <a href="" target="_blank"  style="background-color: #E75480;; color:white; border-radius:15px; border-color:#E75480;" class=" btn btn-primary">Windows Download</a>
+              
+                    <a  href="" target="_blank"  style="background-color:#E75480;;color:white; border-radius:15px; border-color:#E75480;" class=" btn btn-primary">Android Download</a>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="buy-section" style="background: linear-gradient(to right, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.42) 100%), url(img/scfx-platformbg.jpg) fixed center center;
+    background-size: cover;">
+    <div class="auto-container">
+        <div class="row clearfix">
+            <div class="services-column col-md-6 col-sm-12 col-xs-12">
+                <div class="row clearfix">
+                    <div class="services-block-three col-md-4 col-sm-6 col-xs-12">
+                        <a href="/" target="_blank">
+                            <div class="inner-box">
+                                <div class="icon-box">
+                                    <img src="img/windows-scfx.png" style="width: 50%;">
+                                </div>
+                                <h3>CVC GLOBALS</h3>
+                                <div class="number" _msthash="3104491" _msttexthash="4459">1</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="services-block-three col-md-4 col-sm-6 col-xs-12">
+                        <a href="" target="_blank">
+                            <div class="inner-box">
+                                <div class="icon-box">
+                                    <img src="img/ios-scfx.png" style="width: 50%;">
+                                </div>
+                                <h3>CVC GLOBALS</h3>
+                                <div class="number">2</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="services-block-three col-md-4 col-sm-12 col-xs-12" >
+                        <a href="" target="_blank">
+                            <div class="inner-box">
+                                <div class="icon-box">
+                                    <img src="img/android-scfx.png" style="width: 50%;" class="img-responsive">
+                                </div>
+                                <h3>CVC GLOBALS</h3>
+                                <div class="number">3</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="services-column col-md-1 col-sm-12 col-xs-12">
+            </div>
+            <div class="content-column col-md-5 col-sm-12 col-xs-12">
+                <div class="inner-column">
+                    <div class="sec-title light"><br>
+                        <h2 style="color:white;">Download Platform</h2>
+                        <div class="separator"></div>
+                    </div>
+                    <div class="text" style="">
+                        <p>An CVC GLOBALS Forex trading account gives you access to a number of trading instruments in a single platform so that you can trade Forex markets.</p>
+                        <p>It lets you to have the freedom of movement to the full extent and allows you to work on browser also.</p>
+                    </div>
+                    <a href="" target="_blank"  style="background-color: #E75480;; color:white; border-radius:15px; border-color:#E75480;" class=" btn btn-primary">Start Trading</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="register-section newsletter-section">
+    <div class="auto-container">
+        <div class="row">
+                    <div class="col-md-1" style="margin-left:70px;">
+                       <img src="img/message.svg" data src="img/message.svg">
+                    </div>
+                    <div class="col-md-8" style="margin-top:20px;">
+                    <h2>Register today to receive updates and  be part of us.</h2>
+                <div class="lower-box">
+                    <div class="text" style="margin-top:15px;">Enter your email id here and latest news and updates, your details are very confidential as per our company policy. </div>
+        
+                    <!--Register Form-->
+                    <div class="register-form">
+                        <form method="post" action="#" onclick="return false" style="margin-top:10px;">
+                            <div class="row clearfix">
+                                <div class="column col-md-12 col-sm-12 col-xs-12">
+                                    <div class="row clearfix reg">
+                                        <div class="form-group col-md-6 col-sm-6 co-xs-12">
+                                            <input id="subscribe_name" type="text" name="text" value="" placeholder="Your Name" spellcheck="false">
+                                        </div>
+                                        <div class="form-group col-md-6 col-sm-6 co-xs-12">
+                                            <input class="text-lowercase" id="subscribe_email" type="email" name="email" value="" placeholder="Email Address" spellcheck="false">
+                                        </div>
+                                    </div>
+                                </div>
+                                  <div class="column col-md-3 col-sm-12 col-xs-12">
+                                    <div class="form-group">
+                                         <button type="submit" class="btn btn-primary" style="background-color:#E75480;; color:white; border-color:#EE5C25;border-radius:15px; ">Submit now<i class="fas fa-arrow-circle-right uk-margin-small-left"></i></button>
+                                    </div>
+                                </div>
+                                <div class="col-12 text-md-left">
+                                    <p id="subscribe_success_message" class="pr-md-2 text-left small badge px-3 py-2 d-block rounded"></p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+<!--Image Column-->
+<div class="image-column col-md-4 col-sm-12 col-xs-12 d-none d-lg-block">
+   
+</div>
+</div>
+</div>
+</section>
+<div class="uk-section uk-padding-remove-vertical in-equity-18">
+    <div class="uk-container">
+        <div class="uk-grid" data-uk-grid>
+            <div class="uk-width-1-1">
+                <div class="uk-card uk-card-default uk-card-body uk-border-rounded">
+                    <h4 class="uk-text-center in-offset-top-10">Fast and reliable withdrawal/deposit method</h4>
+                    <div class="uk-grid-collapse uk-child-width-1-6@m uk-child-width-1-2@s uk-text-center in-client-logo-6" data-uk-grid>
+                        <div class="uk-tile uk-tile-default">
+                            <img class="uk-margin-remove" src="img/in-equity-payment-1.svg" alt="client-logo" width="167" height="55">
+                        </div>
+                         <div class="uk-tile uk-tile-default">
+                            <img class="uk-margin-remove" src="img/tether.svg" alt="client-logo" width="167" height="55">
+                        </div>
+                         <div class="uk-tile uk-tile-default">
+                            <img class="uk-margin-remove" src="img/in-equity-payment-4.svg" alt="client-logo" width="167" height="55">
+                        </div>
+                         <div class="uk-tile uk-tile-default">
+                            <img class="uk-margin-remove" src="img/Wire_transfer.svg" alt="client-logo">
+                        </div>
+                       
+                        <div class="uk-tile uk-tile-default">
+                            <img class="uk-margin-remove" src="img/in-equity-payment-2.svg" alt="client-logo" width="167" height="55">
+                        </div>
+                        <div class="uk-tile uk-tile-default">
+                            <img class="uk-margin-remove" src="img/in-equity-payment-3.svg" alt="client-logo" width="167" height="55">
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <!-- footer content begin -->
+    <div class="uk-section">
+        <div class="uk-container uk-margin-top">
+            <div class="uk-grid">
+                <div class="uk-width-2-3@m">
+                    <div class="uk-child-width-1-2@s uk-child-width-1-3@m" data-uk-grid>
+                        <div>
+                            <h5>Instruments</h5>
+                            <ul class="uk-list uk-link-text">
+                                <li><a href="forex.html">Forex <span class="uk-label uk-margin-small-left in-label-small">Popular</span></a></li>
+                                <li><a href="shares.html">Shares</a></li>
+                                <li><a href="metals.html">Metals</a></li>
+                                <li><a href="commodity.html">Commodity</a></li>
+                                <li><a href="indices.html">Indices</a></li>
+                                <li><a href="">Cryptocurrency</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h5>About Us</h5>
+                            <ul class="uk-list uk-link-text">
+                                <li><a href="who.html">Who is CVC GLOBALS</a></li>
+                                <li><a href="faq.html">FAQs <span class="uk-label uk-margin-small-left in-label-small">New</span></a></li>
+                                <li><a href="benefits.html">CVC GLOBALS Advantages</a></li>
+                                <li><a href="fund_safety.html">Fund Safety</a></li>
+                        
+                            </ul>
+                        </div>
+                            <div class="in-margin-top-60@s">
+                                <h5>Platform</h5>
+                                <ul class="uk-list uk-link-text">
+                                    <li><a href="" target="_blank">Desktop Trader</a></li>
+                                    <li><a href="" target="_blank">Web Trader</a></li>
+                                    <li><a href="" target="_blank">Android Trader</a></li>
+                                     <li><a href="" target="_blank">IOS Trader</a></li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+                <div class="uk-width-1-3@m uk-flex uk-flex-right@m">
+                    <ul class="uk-list uk-link-text in-footer-socials">
+                        <li><a href="#some-link" class="fb-bg"><i class="fab fa-facebook-square"></i>Facebook</a></li>
+                        <li><a href="#some-link" class="tw-bg"><i class="fab fa-twitter"></i>Twitter</a></li>
+                        <li><a href="#some-link" class="yt-bg"><i class="fab fa-youtube"></i>Youtube</a></li>
+                        <li><a href="#some-link" class="ig-bg"><i class="fab fa-instagram"></i>Instagram</a></li>
+                        <li><a href="#some-link" class="tl-bg"><i class="fab fa-telegram-plane"></i>Telegram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr class="uk-margin-large">
+        <div class="uk-container">
+            <div class="uk-grid uk-flex uk-flex-middle">
+                <div class="uk-width-2-3@m uk-text-small">
+                    <ul class="uk-subnav uk-subnav-divider uk-visible@s" data-uk-margin>
+                        <li><a href="#modal-example" style="color:#E75480;" uk-toggle>Risk disclosure</a></li>
+                        <li><a href="privacy-policy.html" style="color:#E75480;">Privacy policy</a></li>
+                        <li><a href="#" style="color:#E75480;">Return policy</a></li>
+                        <li><a href="#" style="color:#E75480;">Customer Agreement</a></li>
+                        <li><a href="#" style="color:#E75480;">AML policy</a></li>
+                    </ul>
+                    <p class="copyright-text"></p>
+                </div>
+                <div class="uk-width-1-3@m uk-flex uk-flex-right uk-visible@m">
+                    <span class="uk-margin-right"><img src="img/in-lazy.gif" data-src="img/in-footer-mastercard.svg" alt="footer-payment" width="34" height="21" data-uk-img></span>
+                    <span><img src="img/in-lazy.gif" data-src="img/in-footer-visa.svg" alt="footer-payment" width="50" height="16" data-uk-img></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer content end -->
+    <!-- totop begin -->
+    <div class="uk-visible@m">
+        <a href="#" class="in-totop fas fa-chevron-up" data-uk-scroll></a>
+    </div>
+    <!-- totop end -->
+</footer>
+<div id="modal-example" uk-modal >
+    <div class="uk-modal-dialog uk-modal-body" style="background-color: #f5f7f9;">
+        <h2 class="uk-modal-title" style="color:black">General Risk Warning</h2>
+        <p style="color:black">Trading leveraged products such as Forex and CFDs may not be suitable for all investors as they carry a high degree of risk to your capital. Please ensure that you fully understand the risks involved, taking into account your investments objectives and level of experience, before trading, and if necessary seek independent advice. Please read the full Risk Disclosure.</p>
+        <p class="uk-text-right">
+            
+            <button class="uk-button uk-button-primary uk-modal-close" type="button">Ok</button>
+        </p>
+    </div>
+</div>
+<script src="js/vendors/uikit.min.js"></script>
+<script src="js/vendors/utilities.min.js"></script>
+<script src="js/vendors/trading-widget.min.js"></script>
+<script src="js/vendors/market-plugin.min.js"></script>
+<script src="js/vendors/particles.min.js"></script>
+<script src="js/config-particles.js"></script>
+<script src="js/config-theme.js"></script>
+<script src="assets/js/jquery.js"></script>
+<script src="assets/plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
+<script src="assets/plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
+<script src="assets/plugins/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+<script src="assets/plugins/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+<script src="assets/plugins/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+<script src="assets/plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script src="assets/plugins/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+<script src="assets/plugins/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+<script src="assets/plugins/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+<script src="assets/plugins/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script src="assets/plugins/revolution/js/extensions/revolution.extension.video.min.js"></script>
+<script src="assets/js/main-slider-script.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/jquery.fancybox.js"></script>
+<script src="assets/js/jquery-ui.js"></script>
+<script src="assets/js/owl.js"></script>
+<script src="assets/js/widget.js"></script>
+<script src="assets/js/appear.js"></script>
+<script src="assets/js/wow.js"></script>
+<script src="assets/js/jquery.validate.min.js"></script>
+<script src="assets/js/script.js"></script>
+</body>

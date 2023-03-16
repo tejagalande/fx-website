@@ -1,0 +1,497 @@
+@import url(../css/fontawesome/css/all.min.css);
+.text-primary {
+	color: #f48801 !important
+}
+
+.text-secondary {
+	color: #3b3660 !important
+}
+
+:focus {
+	outline: 0 !important
+}
+
+body {
+	font-size: 16px
+}
+
+body:focus {
+	outline: 0 !important
+}
+
+.text-primary {
+	color: #f57d1f !important
+}
+
+.h3,
+h3 {
+	font-size: 22px
+}
+
+.panel-group .panel {
+	border-radius: 4px
+}
+
+.panel-group .panel .panel-heading {
+	border-bottom: 1px solid transparent
+}
+
+.panel-group .panel .panel-heading .panel-title a {
+	padding: 4px 15px;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 16px;
+	color: inherit;
+	display: block
+}
+
+.panel-group .panel .panel-body {
+	padding: 10px 15px
+}
+
+.panel-group .panel+.panel {
+	margin-top: 5px
+}
+
+.panel-group .panel-heading+.panel-collapse>.list-group,
+.panel-group .panel-heading+.panel-collapse>.panel-body {
+	border-top: 1px solid #ddd
+}
+
+.customized.panel-group {
+	margin-bottom: 20px
+}
+
+.customized.panel-group .panel-default {
+	border-color: #ddd
+}
+
+.customized.panel-group .panel-default>.panel-heading {
+	color: #333;
+	background-color: #f5f5f5;
+	border-color: #ddd
+}
+
+.customized.panel-group .panel-heading {
+	border-radius: 4px;
+	box-shadow: 0px 7px 12px 0px #00000014;
+	border: 1px solid #d8d7d7 !important
+}
+
+.mobileHeader {
+	position: relative;
+	background-color: #ffffff;
+	padding: 12px 0;
+	padding-bottom: 0;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 999
+}
+
+.mobileHeader__top {
+	border-bottom: 2px solid #f57d1f;
+	padding-bottom: 8px
+}
+
+.mobileHeader__top img {
+	max-height: 25px
+}
+
+.mobileHeader__top a {
+	text-decoration: none
+}
+
+.mobileHeader__top a:hover {
+	text-decoration: none
+}
+
+.mobileHeader__main {
+	padding: 8px 0;
+	background-color: #fefefe
+}
+
+.mobileHeader__brand {
+	display: block;
+	text-decoration: none
+}
+
+.mobileHeader__brand:hover {
+	text-decoration: none
+}
+
+.mobileHeader__brand--logo {
+	max-width: 150px;
+	max-height: 40px
+}
+
+.mobileHeader__menus {
+	position: relative
+}
+
+.mobileHeader__menus li {
+	margin: 0 2px
+}
+
+.mobileHeader__menus li:last-child {
+	margin-right: 0
+}
+
+.mobileHeader__menus li a {
+	position: relative;
+	padding: 10px 10px;
+	display: block;
+	background: transparent;
+	font-size: 16px;
+	font-weight: 500;
+	color: #f57d1f;
+	text-decoration: none;
+	z-index: 0
+}
+
+.mobileHeader__menus li a:hover {
+	text-decoration: none
+}
+
+.mobileHeader__menus li a:before {
+	position: absolute;
+	content: "";
+	width: 0;
+	height: 0;
+	background: #e2e0e07d;
+	z-index: -1;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	transition: .3s all ease-in
+}
+
+.mobileHeader__menus li a:not(.button):hover:before,
+.mobileHeader__menus li a:focus:not(.button):before,
+.mobileHeader__menus li a:active:not(.button):before {
+	width: 55px;
+	height: 55px
+}
+
+.mobileHeader__menus li a.button {
+	background-color: #f57d1f;
+	padding: 6px 15px;
+	border-radius: 45px
+}
+
+.mobileSideMenu {
+	position: fixed;
+	top: 0;
+	left: -100%;
+	width: 100%;
+	height: 100%;
+	background: #ffffff;
+	z-index: 1001;
+	transition: .3s all ease-in
+}
+
+.mobileSideMenu.show {
+	left: 0
+}
+
+.mobileSideMenu #closeSideMenu {
+	color: inherit;
+	text-decoration: none;
+	padding: 8px 16px;
+	display: inline-block;
+	line-height: normal
+}
+
+.mobileSideMenu #closeSideMenu:hover {
+	text-decoration: none
+}
+
+.mobileSideMenu__brand--logo {
+	max-height: 80px
+}
+
+.mobileSideMenu nav ul {
+	position: relative
+}
+
+.mobileSideMenu nav ul li {
+	position: relative
+}
+
+.mobileSideMenu nav ul li a {
+	position: relative;
+	padding: 10px 15px;
+	display: block;
+	color: inherit;
+	font-size: 15px;
+	font-weight: 500;
+	text-decoration: none
+}
+
+.mobileSideMenu nav ul li a:hover,
+.mobileSideMenu nav ul li a:focus {
+	background-color: #f57d1f;
+	color: #ffffff
+}
+
+.mobileSideMenu nav ul li a.active {
+	position: relative
+}
+
+.mobileSideMenu nav ul li.divider {
+	border: 1px solid #f5f5f5;
+	margin: 8px 0
+}
+
+.mobileSideMenu nav ul li.label {
+	padding: 0 15px
+}
+
+.main-header .outer-box .reservation-form-btn {
+	font-size: 15px;
+	text-transform: uppercase;
+	-webkit-border-radius: 50px 50px 50px 50px !important;
+	-moz-border-radius: 50px 50px 50px 50px !important;
+	-ms-border-radius: 50px 50px 50px 50px !important;
+	-o-border-radius: 50px 50px 50px 50px !important;
+	border-radius: 50px 50px 50px 50px !important
+}
+
+.scroll-to-top {
+	bottom: 17px;
+	right: 95px;
+	width: 65px;
+	height: 65px;
+	font-size: 24px;
+	-webkit-box-shadow: 2px 2px 3px #999;
+	-moz-box-shadow: 2px 2px 3px #999;
+	-ms-box-shadow: 2px 2px 3px #999;
+	-o-box-shadow: 2px 2px 3px #999;
+	box-shadow: 2px 2px 3px #999
+}
+
+.main-menu .navigation>li:hover>a:before,
+.main-menu .navigation>li:hover>a:after {
+	opacity: 1
+}
+
+.main-menu .navigation>li.active>a.active {
+	color: #f57d1f
+}
+
+.main-menu .navigation>li.active>a.active:before,
+.main-menu .navigation>li.active>a.active:after {
+	opacity: 1
+}
+
+.main-menu .navigation>li.active>a {
+	color: #f57d1f
+}
+
+.main-menu .navigation>li.active>a:before,
+.main-menu .navigation>li.active>a:after {
+	opacity: 1
+}
+
+.main-menu .navigation>li>a {
+	font-size: 15px;
+	text-transform: uppercase
+}
+
+.main-header .sticky-header .main-menu .navigation>li>a {
+	font-size: 15px
+}
+
+.main-menu .navigation>li>ul {
+	top: 85%;
+	box-shadow: 0 8px 32px 0 #4c536b38
+}
+
+.sec-title h2 {
+	font-size: 28px
+}
+
+.contact-form .form-group input,
+.contact-form .form-group textarea {
+	border-bottom: 1px solid #a9a9a2
+}
+
+#contactSuccessModal .modal-content {
+	background-color: #f57d1f
+}
+
+.history-section .overlay-box .overlay-inner h2 {
+	position: relative
+}
+
+.history-section .overlay-box .overlay-inner a:hover {
+	color: inherit !important
+}
+
+.history-section .left-line,
+.history-section .right-line {
+	display: none;
+	visibility: hidden
+}
+
+.payment-col {
+	position: relative;
+	border-top: 1px solid #efefef;
+	padding-bottom: 1.5rem
+}
+
+.consult-form .form-group label.error {
+	font-size: 12px;
+	color: red
+}
+
+.consult-form .form-group input[type='text'].error,
+.consult-form .form-group input[type='email'].error,
+.consult-form .form-group textarea.error {
+	border: 1px solid red
+}
+
+#openSideMenu span {
+	width: 24px;
+	height: 2px;
+	background: #454545;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+	transition: all .5s
+}
+
+#openSideMenu span:nth-child(2) {
+	margin: 6px 0
+}
+
+.spinner {
+	height: 100vh;
+	width: 100vw;
+	position: fixed;
+	z-index: 99999 !important;
+	background: #000000d9
+}
+
+.loader {
+	height: 20px;
+	width: 250px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto
+}
+
+.loader--dot {
+	animation-name: loader;
+	animation-timing-function: ease-in-out;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	height: 6px;
+	width: 6px;
+	border-radius: 100%;
+	background-color: black;
+	position: absolute
+}
+
+.loader--dot:first-child {
+	background-color: #f57d1f;
+	animation-delay: 0.5s
+}
+
+.loader--dot:nth-child(2) {
+	background-color: #f57d1f;
+	animation-delay: 0.4s
+}
+
+.loader--dot:nth-child(3) {
+	background-color: #f57d1f;
+	animation-delay: 0.3s
+}
+
+.loader--dot:nth-child(4) {
+	background-color: #f57d1f;
+	animation-delay: 0.2s
+}
+
+.loader--dot:nth-child(5) {
+	background-color: #f57d1f;
+	animation-delay: 0.1s
+}
+
+.loader--dot:nth-child(6) {
+	background-color: #f57d1f;
+	animation-delay: 0s
+}
+
+.loader--text {
+	position: absolute;
+	top: 200%;
+	left: 0;
+	right: 0;
+	width: 4rem;
+	margin: auto;
+	color: #fff
+}
+
+.loader--text:after {
+	content: "Loading";
+	font-weight: 200;
+	color: #fff;
+	animation-name: loading-text;
+	animation-duration: 3s;
+	animation-iteration-count: infinite
+}
+
+@keyframes loader {
+	15% {
+		transform: translateX(0)
+	}
+	45% {
+		transform: translateX(230px)
+	}
+	65% {
+		transform: translateX(230px)
+	}
+	95% {
+		transform: translateX(0)
+	}
+}
+
+@keyframes loading-text {
+	0% {
+		content: "Loading"
+	}
+	25% {
+		content: "Loading."
+	}
+	50% {
+		content: "Loading.."
+	}
+	75% {
+		content: "Loading..."
+	}
+}
+
+@media (max-width: 991px) {
+	.auto-container {
+		padding: 0 15px
+	}
+	.float,
+	.scroll-to-top {
+		display: none;
+		visibility: hidden
+	}
+}
+
+
+/*# sourceMappingURL=customized.css.map */

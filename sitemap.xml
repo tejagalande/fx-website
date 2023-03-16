@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://cvcglobals.com/</loc>
+		<lastmod>2022-02-08</lastmod>
+		<priority>1.0</priority>
+	</url>
+		<url>
+		<loc>https://cvcglobals.com/signin.html</loc>
+		<lastmod>2022-05-18</lastmod>
+		<priority>1.0</priority>
+	</url>
+		<url>
+		<loc>https://cvcglobals.com/who.html</loc>
+		<lastmod>2023-02-08</lastmod>
+	</url>
+		<url>
+		<loc>https://cvcglobals.com/account_type.html</loc>
+		<lastmod>2023-02-08</lastmod>
+	</url>
+	<url>
+		<loc>https://cvcglobals.com/forex.html</loc>
+			<lastmod>2023-02-08</lastmod>
+	</url>
+	
+	<url>
+		    <loc>https://cvcglobals.com/shares.html</loc>
+			<lastmod>2023-02-08</lastmod>
+	</url>
+		<url>
+		<loc>https://cvcglobals.com/commodity.html</loc>
+		<lastmod>2023-02-08</lastmod>
+		</url>
+			<url>
+		<loc>https://cvcglobals.com/metal.html</loc>
+		<lastmod>2023-02-08</lastmod>
+		</url>
+	<url>
+		    <loc>https://cvcglobals.com/indices.html</loc>
+				<lastmod>2023-02-08</lastmod>
+	</url>
+		<url>
+		    <loc>https://cvcglobals.com/web_trader.html</loc>
+			<lastmod>2023-02-08</lastmod>
+	</url>
+	
+		<url>
+		    <loc>https://cvcglobals.com/contact.html</loc>
+				<lastmod>2023-02-08</lastmod>
+	</url>
+	
+		<url>
+    		<loc>https://cvcglobals.com/benifits.html</loc>
+    			<lastmod>2023-02-08</lastmod>
+	    </url>
+	    	<url>
+    		<loc>https://cvcglobals.com/fund_safety.html</loc>
+    			<lastmod>2023-02-08</lastmod>
+	    </url>
+	    	<url>
+    		<loc>https://cvcglobals.com/faq.html</loc>
+    		<lastmod>2023-02-08</lastmod>
+	    </url>
+</urlset>

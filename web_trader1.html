@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="zxx" dir="ltr">
+
+<head>
+    <!-- Standard Meta -->
+    <meta charset="utf-8">
+    <meta name="description" content="Premium HTML5 Template by Indonez">
+    <meta name="keywords" content="blockit, uikit3, indonez, handlebars, scss, javascript">
+    <meta name="author" content="Indonez">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#FCB42D" />
+    <!-- Site Properties -->
+    <title>Homepage - Equity HTML5 Template</title>
+    <!-- critical preload -->
+    <link rel="preload" href="js/vendors/uikit.min.js" as="script">
+    <link rel="preload" href="css/vendors/uikit.min.css" as="style">
+    <link rel="preload" href="css/style.css" as="style">
+    <!-- icon preload -->
+    <link rel="preload" href="fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+    <!-- font preload -->
+    <link rel="preload" href="fonts/archivo-v9-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/archivo-v9-latin-300.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/archivo-v9-latin-700.woff2" as="font" type="font/woff2" crossorigin>
+    <!-- Favicon and apple icon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon.png">
+    <!-- css -->
+    <link rel="stylesheet" href="css/vendors/uikit.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>ps://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="assets/js/respond.js"></script><![endif]-->
+<style>
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+    }
+</style>
+<style>
+    .float{
+        position:fixed;
+        width:60px;
+        height:60px;
+        bottom:40px;
+        left:40px;
+        background-color:#25d366;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        font-size:30px;
+        box-shadow: 2px 2px 3px #999;
+        z-index:100;
+    }
+
+    .my-float{
+        margin-top:16px;
+    }
+</style>
+<style>
+    .float{
+        position:fixed;
+        width:60px;
+        height:60px;
+        bottom:40px;
+        left:40px;
+        background-color:#25d366;
+        color:#FFF;
+        border-radius:50px;
+        text-align:center;
+        font-size:30px;
+        box-shadow: 2px 2px 3px #999;
+        z-index:100;
+    }
+
+    .my-float{
+        margin-top:16px;
+    }
+</style>
+    
+</head>
+
+
+<header>
+    <!-- header content begin -->
+    <div class="uk-section uk-padding-remove-vertical">
+        <nav class="uk-navbar-container" data-uk-sticky="show-on-up: true; animation: uk-animation-slide-top;" style="background: #fcb42d;">
+            <div class="uk-container" data-uk-navbar>
+                <div class="uk-navbar-left">
+                    <div class="uk-navbar-item">
+                        <!-- logo begin -->
+                        <a class="uk-logo" href="index.php">
+                            <img src="img/logo.png" data-src="img/logo.png"  alt="logo" width="180" height="70" data-uk-img>
+                        </a>
+                        <!-- logo end -->
+                        <!-- navigation begin -->
+                        <ul class="uk-navbar-nav uk-visible@m" style="margin-top:10px;">
+                            <li style="color:white"><a href="index.php" >Home</a>
+                                <!--<div class="uk-navbar-dropdown">-->
+                                <!--    <ul class="uk-nav uk-navbar-dropdown-nav">-->
+                                <!--        <li><a href="homepage2.html">Homepage 2</a></li>-->
+                                <!--        <li><a href="homepage3.html">Homepage 3</a></li>-->
+                                <!--        <li><a href="homepage4.html">Homepage 4</a></li>-->
+                                <!--    </ul>-->
+                                <!--</div>-->
+                            </li>
+                            <li><a href="markets.html" style="color:white">Markets</a></li>
+                            <li ><a href="#" style="color:white">Company<i class="fas fa-chevron-down"></i></a>
+                                <div class="uk-navbar-dropdown">
+                                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                                        <li><a href="about.html">About</a></li>
+                                        <li><a href="blog/page-1.html">Blog</a></li>
+                                        <li><a href="careers.html">Careers</a></li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="education.html" style="color:white">Education</a></li>
+                            <li><a href="#" style="color:white">Resources<i class="fas fa-chevron-down"></i></a>
+                                <div class="uk-navbar-dropdown uk-navbar-dropdown-width-2">
+                                    <div class="uk-navbar-dropdown-grid uk-child-width-1-2" data-uk-grid>
+                                        <div>
+                                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                                <li><a href="" >Documentation<i class="fas fa-external-link-square-alt fa-sm"></i></a></li>
+                                                <li><a href="help-center.html">Help Center</a></li>
+                                                <li><a href="customers.html" >Customers</a></li>
+                                                <li><a href="roadmap.html" >Roadmap</a></li>
+                                                <li><a href="legal-docs.html" >Legal Docs<i class="fas fa-gavel fa-sm"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <!--<ul class="uk-nav uk-navbar-dropdown-nav">-->
+                                            <!--    <li><a class="uk-disabled" href="#">Adipiscing elit sed do eiusmod incididunt ut labore dolore magna lorem ipsum sit dolor amet consectetur</a></li>-->
+                                            <!--</ul>-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <!-- navigation end -->
+                    </div>
+                </div>
+                <div class="uk-navbar-right">
+                    <div class="uk-navbar-item uk-visible@m in-optional-nav">
+                        <a href="https://clients.traderhubfx.com/" class="uk-button uk-button-text">Log in<i class="fas fa-arrow-circle-right uk-margin-small-left"></i></a>
+                        <a href="https://clients.traderhubfx.com/register" style="background-color:#21365D" class="uk-button uk-button-primary uk-border-rounded">Sign up<i class="fas fa-arrow-circle-right uk-margin-small-left"></i></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- header content end -->
+</header>
+  
+<section class="page-title" style="background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, #000000c9 100%),url(assets/images/trading_condition.png) fixed center center;background-size: cover;background-position: center;">
+    <div class="auto-container">
+        <h1 style="color:white;">Platform</h1>
+        <div class="title" style="color:white;">We are the best FOREX trading platform offering exceptional <br> financial services to our clients with great efficiency and talent.</div>
+    </div>
+    <!--Page Info-->
+    <div class="page-info">
+        <div class="auto-container">
+            <div class="inner-container d-flex align-items-center justify-content-between">
+                <ul class="bread-crumb">
+                    <li><a href="https://www.traderhubfx.com/">Home</a></li>
+                    <li>Platform</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--End Page Info-->
+</section>
+<div class="auto-container">
+    <div class="row mt-5">
+        <div class="col-md-6">
+            <div class="sec-title">
+                <h2 class="text-dark">
+                    Introducing the MetaTrader 5
+                </h2>
+                <div class="separator"></div>
+            </div>
+
+            <p>
+                The MT5 delivers everything traders have grown to love about their MT4 but with a few extra enhancements. More power. More precision.
+
+            </p>
+            <p>More options.With new added features and technical upgrades, the MT5 platform will provide you with all of the tools you will need to take on the markets
+            </p>
+            <h3 class="text-dark mb-3 mt-5">
+                MT5 Unique Features
+            </h3>
+            <p>
+                1. Multi-asset platform for over 700 instruments
+            </p>
+            <p>
+                2. Over 80 Technical Indicators and over 40 Analytical Objects
+            </p>
+            <p>
+                3. Web trading for Windows, Mac, Linux operating systems
+            </p>
+            <p>
+                4. Hedging Option Available
+            </p>
+            <p>
+                5. Highlighted Entry/Exit Points
+            </p>
+            <div class="mb-4">
+                <a href="https://download.mql5.com/cdn/web/fxfincrop.limited/mt5/fxfincroplimited5setup.exe" class="theme-btn btn-style-one mb-md-0 mb-3">Download for Windows</a>
+                <a href="https://www.metatrader5.com/en/terminal/help/start_advanced/install_mac" target="_blank" class="theme-btn btn-style-one">Download for Mac</a>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <img src="img/mt5.png">
+        </div>
+    </div>
+    <hr class="my-5">
+    <div class="row align-items-end">
+        <div class="col-md-6">
+            <img src="img/mobile_trading.jpg">
+        </div>
+        <div class="col-md-6">
+            <div class="sec-title">
+                <h2 class="text-dark">
+                    Mobile Trading
+                </h2>
+                <div class="separator"></div>
+            </div>
+            <p>
+                1. Full-fledged financial market trading can be enjoyed without even a desktop computer.
+            </p>
+            <p>
+                2. The only thing you need to do is to install the mobile version of MetaTrader 5 for Android or iOS on your smartphone or tablet.
+            </p>
+
+            <p>
+                3. Mobile applications support the full set of trading function, provide extensive analytical capabilities through the use of 
+                technical indicators and graphical objects, as well as allow you to monitor account status, view your trading history and more.
+
+            </p>
+            <div class="mb-5">
+                <a href="https://download.mql5.com/cdn/mobile/mt5/ios?server=FxFincropLimited-Demo,FxFincropLimited-Live" target="_blank" class="theme-btn btn-style-one mb-md-0 mb-3">Download for iOS</a>
+                <a href="https://download.mql5.com/cdn/mobile/mt5/android?server=FxFincropLimited-Demo,FxFincropLimited-Live" target="_blank" class="theme-btn btn-style-one">Download for Android</a>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="buy-section" style="background:linear-gradient(to right, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.42) 100%), url(assets/images/scfx-platformbg.jpg) fixed center center; background-size: cover;">
+                <div class="auto-container">
+                    <div class="row clearfix">
+                        <div class="services-column col-md-6 col-sm-12 col-xs-12">
+                            <div class="row clearfix">
+                                <div class="services-block-three col-md-4 col-sm-6 col-xs-12">
+                                    <a href="https://download.mql5.com/cdn/web/fxfincrop.limited/mt5/fxfincroplimited5setup.exe">
+                                        <div class="inner-box">
+                                            <div class="icon-box">
+                                                <img src="img/mwindows-scfx.png" style="width: 50%;">
+                                            </div>
+                                            <h3>Metatrader 5</h3>
+                                            <div class="number">1</div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="services-block-three col-md-4 col-sm-6 col-xs-12">
+                                    <a href="https://download.mql5.com/cdn/mobile/mt5/ios?server=FxFincropLimited-Demo,FxFincropLimited-Live" target="_blank">
+                                        <div class="inner-box">
+                                            <div class="icon-box">
+                                                <img src="img/ios-scfx.png" style="width: 50%;">
+                                            </div>
+                                            <h3>Metatrader 5</h3>
+                                            <div class="number">2</div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="services-block-three col-md-4 col-sm-12 col-xs-12">
+                                    <a href="https://download.mql5.com/cdn/mobile/mt5/android?server=FxFincropLimited-Demo,FxFincropLimited-Live" target="_blank">
+                                        <div class="inner-box">
+                                            <div class="icon-box">
+                                                <img src="img/android-scfx.png" style="width: 50%;">
+                                            </div>
+                                            <h3>Metatrader 5</h3>
+                                            <div class="number">3</div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="services-column col-md-1 col-sm-12 col-xs-12">
+                        </div>
+                        <div class="content-column col-md-5 col-sm-12 col-xs-12">
+                            <div class="inner-column">
+                                <div class="sec-title light"><br>
+                                    <h2>Download Platform</h2>
+                                    <div class="separator"></div>
+                                </div>
+                                <div class="text">
+                                    <p>An MT5 Forex trading account with FxFinMarkets  gives you access to a number of trading instruments in a single platform so that you can trade Forex markets.</p>
+                                    <p>It lets you to have the freedom of movement to the full extent and allows you to work on browser also.</p>
+                                </div>
+                                <a href="https://portal.fxfinmarkets.com/register" target="_blank" class="theme-btn btn-style-one">Start Trading</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section
+
+<section class="register-section newsletter-section">
+    <div class="auto-container">
+        <div class="row">
+                    <div class="col-md-1" style="margin-left:70px;">
+                       <img src="img/message.svg" data src="img/message.svg">
+                    </div>
+                    <div class="col-md-8">
+                    <h2>Register today to receive updates and  be part of us.</h2>
+                <div class="lower-box">
+                    <div class="text">Enter your email id here and latest news and updates, your details are very confidential as per our company policy. </div>
+        
+                    <!--Register Form-->
+                    <div class="register-form">
+                        <form method="post" action="#" onclick="return false">
+                            <div class="row clearfix">
+                                <div class="column col-md-12 col-sm-12 col-xs-12">
+                                    <div class="row clearfix">
+                                        <div class="form-group col-md-6 col-sm-6 co-xs-12">
+                                            <input id="subscribe_name" type="text" name="text" value="" placeholder="Your Name" spellcheck="false">
+                                        </div>
+                                        <div class="form-group col-md-6 col-sm-6 co-xs-12">
+                                            <input class="text-lowercase" id="subscribe_email" type="email" name="email" value="" placeholder="Email Address" spellcheck="false">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="column col-md-3 col-sm-12 col-xs-12">
+                                    <div class="form-group">
+                                        <button id="newsletter_cta" style="background-color: #21365D; color:white" class="btn btn primary">Submit Now</button>
+                                    </div>
+                                </div>
+                                <div class="col-12 text-md-left">
+                                    <p id="subscribe_success_message" class="pr-md-2 text-left small badge px-3 py-2 d-block rounded"></p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+<!--Image Column-->
+<div class="image-column col-md-4 col-sm-12 col-xs-12 d-none d-lg-block">
+   
+</div>
+</div>
+</div>
+</section>
+<div class="uk-section uk-padding-remove-vertical in-equity-18">
+    <div class="uk-container">
+        <div class="uk-grid" data-uk-grid>
+            <div class="uk-width-1-1">
+                <div class="uk-card uk-card-default uk-card-body uk-border-rounded">
+                    <h4 class="uk-text-center in-offset-top-10">Fast and reliable withdrawal/deposit method</h4>
+                    <div class="uk-grid-collapse uk-child-width-1-6@m uk-child-width-1-2@s uk-text-center in-client-logo-6" data-uk-grid>
+                        <div class="uk-tile uk-tile-default">
+                            <img class="uk-margin-remove" src="img/in-equity-payment-1.svg" alt="client-logo" width="167" height="55">
+                        </div>
+                         <div class="uk-tile uk-tile-default">
+                            <img class="uk-margin-remove" src="img/tether.svg" alt="client-logo" width="167" height="55">
+                        </div>
+                         <div class="uk-tile uk-tile-default">
+                            <img class="uk-margin-remove" src="img/in-equity-payment-4.svg" alt="client-logo" width="167" height="55">
+                        </div>
+                         <div class="uk-tile uk-tile-default">
+                            <img class="uk-margin-remove" src="img/Wire_transfer.svg" alt="client-logo">
+                        </div>
+                       
+                        <div class="uk-tile uk-tile-default">
+                            <img class="uk-margin-remove" src="img/in-equity-payment-2.svg" alt="client-logo" width="167" height="55">
+                        </div>
+                        <div class="uk-tile uk-tile-default">
+                            <img class="uk-margin-remove" src="img/in-equity-payment-3.svg" alt="client-logo" width="167" height="55">
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <!-- footer content begin -->
+    <div class="uk-section">
+        <div class="uk-container uk-margin-top">
+            <div class="uk-grid">
+                <div class="uk-width-2-3@m">
+                    <div class="uk-child-width-1-2@s uk-child-width-1-3@m" data-uk-grid>
+                        <div>
+                            <h5>Instruments</h5>
+                            <ul class="uk-list uk-link-text">
+                                <li><a href="forex.html">Forex <span class="uk-label uk-margin-small-left in-label-small">Popular</span></a></li>
+                                <li><a href="shares.html">Shares</a></li>
+                                <li><a href="metal.html">Metals</a></li>
+                                <li><a href="commodity.html">Commodity</a></li>
+                                <li><a href="indices.html">Indices</a></li>
+                                <li><a href="">Cryptocurrency</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h5>About Us</h5>
+                            <ul class="uk-list uk-link-text">
+                                <li><a href="aboutus.html">Who is  Trader Hub Fx</a></li>
+                                <li><a href="faq.html">FAQs <span class="uk-label uk-margin-small-left in-label-small">New</span></a></li>
+                                <li><a href="benefits.html">Trader Hub Fx Advantages</a></li>
+                                <li><a href="fund_safety.html">Fund Safety</a></li>
+                        
+                            </ul>
+                        </div>
+                        <div class="in-margin-top-60@s">
+                            <h5>Platform</h5>
+                            <ul class="uk-list uk-link-text">
+                                <li><a href="#">Desktop Trader</a></li>
+                                <li><a href="https://fxfinmarkets.com/metatrader5.php">Web Trader</a></li>
+                                <li><a href="#">Android Trader</a></li>
+                                 <li><a href="#">Ios Trader</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-width-1-3@m uk-flex uk-flex-right@m">
+                    <ul class="uk-list uk-link-text in-footer-socials">
+                        <li><a href="#some-link" class="fb-bg"><i class="fab fa-facebook-square"></i>Facebook</a></li>
+                        <li><a href="#some-link" class="tw-bg"><i class="fab fa-twitter"></i>Twitter</a></li>
+                        <li><a href="#some-link" class="yt-bg"><i class="fab fa-youtube"></i>Youtube</a></li>
+                        <li><a href="#some-link" class="ig-bg"><i class="fab fa-instagram"></i>Instagram</a></li>
+                        <li><a href="#some-link" class="tl-bg"><i class="fab fa-telegram-plane"></i>Telegram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr class="uk-margin-large">
+        <div class="uk-container">
+            <div class="uk-grid uk-flex uk-flex-middle">
+                <div class="uk-width-2-3@m uk-text-small">
+                    <ul class="uk-subnav uk-subnav-divider uk-visible@s" data-uk-margin>
+                        <li><a href="#modal-example" style="color:#fcb42d" uk-toggle>Risk disclosure</a></li>
+                        <li><a href="privacy.html" style="color:#fcb42d">Privacy policy</a></li>
+                        <li><a href="#" style="color:#fcb42d">Return policy</a></li>
+                        <li><a href="#" style="color:#fcb42d">Customer Agreement</a></li>
+                        <li><a href="#" style="color:#fcb42d">AML policy</a></li>
+                    </ul>
+                    <p class="copyright-text"></p>
+                </div>
+                <div class="uk-width-1-3@m uk-flex uk-flex-right uk-visible@m">
+                    <span class="uk-margin-right"><img src="img/in-lazy.gif" data-src="img/in-footer-mastercard.svg" alt="footer-payment" width="34" height="21" data-uk-img></span>
+                    <span><img src="img/in-lazy.gif" data-src="img/in-footer-visa.svg" alt="footer-payment" width="50" height="16" data-uk-img></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer content end -->
+    <!-- totop begin -->
+    <div class="uk-visible@m">
+        <a href="#" class="in-totop fas fa-chevron-up" data-uk-scroll></a>
+    </div>
+    <!-- totop end -->
+</footer>
+ <script src="js/vendors/uikit.min.js"></script>
+    <script src="js/vendors/utilities.min.js"></script>
+    <script src="js/vendors/trading-widget.min.js"></script>
+    <script src="js/vendors/market-plugin.min.js"></script>
+    <script src="js/vendors/particles.min.js"></script>
+    <script src="js/config-particles.js"></script>
+    <script src="js/config-theme.js"></script>
+</body>
